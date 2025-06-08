@@ -1,0 +1,28 @@
+DOCUMENT_INFO:
+This document is intended to help chatbot models quickly understand the user's previous context, thoughts, or preferences. It can include previous chats, notes, and personal definitions. Use it to skip repetitive explanations.
+
+⚠️ WARNING:
+This file may contain personal data. Only upload it into AI/chatbot platforms you trust. Do not share publicly!
+
+LOCAL_SETTINGS:
+Each section or chat is marked with capitalized headers (e.g. CHAT_ONE:). These are often copied directly from the chat page (using Ctrl+A), and may include system text like “cookie preferences” at the end.
+If the user continues an existing chat, only new parts are added after the previous section.
+
+LOCAL_VAR:
+LOCAL = Marks text written manually by the user. If absent, the text is likely part of a chatbot conversation.
+CHAT_NAME<chatBotName>: = Starts a new chat section named after the bot.
+-- = Inline comment or explanation for the user. Not meant to be parsed by the bot.
+$ = Indicates a special setting or function for the AI.
+$<FUNCTION> = Special command inside <brackets>, like $<LATER> meaning a time gap.
+
+LOCAL_DISCLAIMER:
+These markers (like $, CHAT_NAME<>, etc.) could theoretically appear in normal conversations, but are most likely used structurally. They are usually placed on their own line.
+
+LOCAL_CURRENT_PERSONALITY:
+ -- Write here your thoughts about yourself — what kind of person you are, how you feel, what you believe about yourself. It helps the chatbot better understand you and respond in a more personal way --
+
+LOCAL_ADDITIONAL_DATA:
+-- Add extra context (world info, memory, rules, etc.) for future chats --
+
+CHAT_NAME<chatbot_name>:
+-- Paste your chat here --
