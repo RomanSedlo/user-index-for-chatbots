@@ -1,24 +1,25 @@
-# 🧠 user-index-for-chatbots  
-A universal and lightweight file to preload your personal context into any chatbot.  
-Upload it **before starting a conversation** to avoid repeating yourself and get more accurate responses.
+# 🧠 user-index-for-chatbots
 
-## ✅ Usage  
-- Save important chats, thoughts, and notes  
-- Describe your personality and preferences  
-- Keep the structure simple and readable  
-- Upload only to trusted AI platforms  
+A universal and lightweight file you upload to a chatbot **before** starting conversation.  
+It gives instant context about you, so you don’t have to repeat things.
 
-## 🗂 Structure  
-- `DOCUMENT_INFO:` – What the file is for  
-- `LOCAL_SETTINGS:` – How chat data is saved  
-- `LOCAL:` – Your personal notes  
-- `CHAT_NAME<name>:` – Start of a chat section  
-- `--` – Comment or explanation  
-- `$<...>` – Command or function marker  
-- `LOCAL_CURRENT_PERSONALITY:` – Who you are, how you feel  
-- `LOCAL_ADDITIONAL_DATA:` – Extra context or memory  
-- `CHAT_NAME<bot_name>:` – Paste chatbot conversation  
+## ✅ Usage
+
+- Use the `user-index-template.txt` as your base file  
+- Fill it with your chats, notes, and personal data  
+- Upload it to your chatbot before chatting  
+- Only upload to trusted platforms
+
+## 🗂 Structure
+
+- `DOCUMENT_INFO:` – What this file is for  
+- `LOCAL_SETTINGS:` – How chats are saved  
+- `LOCAL_VAR:` – Special symbols and structure  
+- `LOCAL_CURRENT_PERSONALITY:` – Describe yourself  
+- `LOCAL_ADDITIONAL_DATA:` – Extra info for the bot  
+- `CHAT_NAME<bot_name>:` – Paste your chat here  
+- `--`, `$<...>` – Comments and special commands
 
 ---
 
-Don’t share your customized version of this file if it contains your own personal information.
+Don’t share your personalized version of this file if it includes your private data.
