@@ -17,7 +17,9 @@ Upload before chatting to skip repeating yourself and get smarter responses.
 - `LOCAL_ADDITIONAL_DATA:` – Extra info for the bot  
 - `CHAT_NAME<bot_name>:` – Paste your chat here  
 - `--` – Comment or personal note  
-- `$<...>` – Special command or instruction  
+- `$<...>` – Special command or instruction
+
+- Create your own variables or sections with `LOCAL` or paste chats with your own names like `DISCUSS_CHAT<chatGPT>`.
 
 ---
 
