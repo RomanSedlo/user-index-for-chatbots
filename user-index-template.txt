@@ -14,6 +14,7 @@ CHAT_NAME<chatBotName>: = Starts a new chat section named after the bot.
 -- = Inline comment or explanation for the user. Not meant to be parsed by the bot.
 $ = Indicates a special setting or function for the AI.
 $<FUNCTION> = Special command inside <brackets>, like $<LATER> meaning a time gap.
+$<FUNCTION>(INPUT) = Special command with optional input in parentheses, e.g. $<NOTE>(feeling tired) or $<WAIT>(5).
 
 LOCAL_DISCLAIMER:
 These markers (like $, CHAT_NAME<>, etc.) could theoretically appear in normal conversations, but are most likely used structurally. They are usually placed on their own line.
